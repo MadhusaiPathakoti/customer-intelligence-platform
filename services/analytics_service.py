@@ -22,4 +22,3 @@ def get_monthly_revenue():
         GROUP BY month;
     """
     return pd.read_sql(query, conn)
-print(get_top_customers())
