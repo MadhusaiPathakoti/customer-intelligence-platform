@@ -28,9 +28,9 @@ def load_table(sheet_name, table_name):
 
 
 # Run ETL
-load_table("customers", "customers")
-load_table("products", "products")
-load_table("orders", "orders")
-load_table("order_items", "order_items")
-
-print("\n🎯 ETL process completed")
+# load_table("customers", "customers")
+# load_table("products", "products")
+# load_table("orders", "orders")
+# load_table("order_items", "order_items")
+#
+# print("\n🎯 ETL process completed")
